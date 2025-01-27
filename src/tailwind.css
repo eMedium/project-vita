@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+@layer base {
+    html, body {
+        @apply m-0 p-0 h-screen overflow-hidden;
+    }
+
+    .h-screen {
+        @apply flex flex-col h-screen;
+    }
+
+    #header {
+        @apply flex-none p-4;
+    }
+
+    #content {
+        @apply flex-1 relative overflow-hidden;
+    }
+
+    #thegame {
+        @apply absolute w-full h-full;
+    }
+
+    #footer {
+        @apply flex-none p-2;
+    }
+}
