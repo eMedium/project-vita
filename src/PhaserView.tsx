@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import { PhaserGameManager } from './PhaserMainManager';
-import { EventBus } from '@/phaser/EventBus';
 
 const PhaserView: React.FC = () => {
     const gameManager = PhaserGameManager.getInstance();
@@ -19,7 +18,6 @@ const PhaserView: React.FC = () => {
                 const width = container.clientWidth;
                 const height = container.clientHeight;
                 currentGame.scale.resize(width, height);
-                EventBus.emit('game-resize', { scaleFactor, width, height });
                 console.log('Game resized to:', width, height);
             }
         };
@@ -68,7 +66,6 @@ const PhaserView: React.FC = () => {
                 // phaserContainer.style.display = 'none';
             }
 
-            EventBus.emit('game-destroy', {  });
         };
     }, []);
 

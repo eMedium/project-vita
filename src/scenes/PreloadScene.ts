@@ -15,6 +15,9 @@ export class PreloadAssets extends Phaser.Scene {
             console.error(`Error loading asset: ${fileObj.key}`);
         });
 
+
+        console.log('Preloading assets...');
+
         try {
             // Placeholders for players
             this.load.image('dino', 'assets/dino.png');
@@ -87,5 +90,6 @@ export class PreloadAssets extends Phaser.Scene {
         this.progressBox.destroy();
         this.loadingText.destroy();
         this.scene.start('MenuScene');
+        console.log('Scene started');
     }
 }

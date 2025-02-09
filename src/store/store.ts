@@ -1,4 +1,3 @@
-import logger from '@/logger/logger';
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
 import gameReducer from './gameSlice';
 import { resetState } from './saves/actions';
@@ -11,7 +10,6 @@ const appReducer = {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const rootReducer = (state: any, action: any) => {
   if (action.type === resetState.type) {
-    logger.info("state really reseted");
     state = undefined;
   }
   return combineReducers(appReducer)(state, action);

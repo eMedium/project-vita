@@ -1,8 +1,4 @@
 import Phaser from 'phaser';
-import logger from '@/logger/logger';
-import MainOfficeScene from '@/phaser/scenes/MainOfficeScene';
-import { HsvColorReplacePipeline } from '@/phaser/shaders/HsvColorReplacePipeline';
-import { Capacitor } from '@capacitor/core';
 import { Map1Scene } from '@/maps/map1/Map1Scene';
 import { CharacterSelectScene } from '@/scenes/CharacterSelectScene';
 import { MapSelectScene } from '@/scenes/MapSelectScene';
@@ -33,21 +29,18 @@ export class PhaserGameManager {
     public initializeGame(): Phaser.Game | null {
         // Check if already initialized or in the process of initializing
         if (PhaserGameManager.initialized || PhaserGameManager.isInitializing) {
-            logger.warn('Phaser game already initialized or in the process of initializing');
             return this.game;
         }
 
         // Set the initializing flag
         PhaserGameManager.isInitializing = true;
-        logger.debug('[Phaser] Initializing Phaser game...');
 
         try {
             // Game configuration and creation
 
             const config: Phaser.Types.Core.GameConfig = {
                 type: Phaser.AUTO,
-                parent: 'phaser-container',
-                backgroundColor: '#282c34',
+                parent: 'thegame',
                 scale: {
                     mode: Phaser.Scale.NONE,
                     autoCenter: Phaser.Scale.CENTER_BOTH
@@ -78,7 +71,6 @@ export class PhaserGameManager {
             PhaserGameManager.initialized = false;
             PhaserGameManager.isInitializing = false;
             this.game = null;
-            logger.error('Failed to initialize Phaser game:', error);
             throw error;
         } finally {
             // Ensure the initializing flag is reset
@@ -94,7 +86,6 @@ export class PhaserGameManager {
         if (PhaserGameManager.instance) {
             if (PhaserGameManager.instance.game) {
                 PhaserGameManager.instance.game.events.on(Phaser.Core.Events.DESTROY, () => {
-                    logger.warn('Phaser game destroyed');
                 });
                 PhaserGameManager.instance.game.destroy(true);
             }

@@ -10,6 +10,7 @@ export class MenuScene extends Phaser.Scene {
     }
 
     create(): void {
+        console.log('MenuScene created');
         this.layoutUI();
         this.scale.on('resize', this.handleResize, this);
     }

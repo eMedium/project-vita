@@ -1,5 +1,4 @@
 import App from './App';
-import '@/config/i18n'; // Import inicjalizacji i18n
 import '@/index.css';
 import store from './store/store';
 import React from 'react';
