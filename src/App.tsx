@@ -1,12 +1,8 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
-import { AppDispatch } from './store/store';
-import PhaserView from './components/phaser/PhaserView';
+import PhaserView from '@/PhaserView';
 
 
 const App: React.FC = () => {
-  const dispatch: AppDispatch = useDispatch();
-
 
   return (
     <div className="flex flex-col h-screen">

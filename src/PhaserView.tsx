@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { PhaserGameManager } from './PhaserGameManager';
+import { PhaserGameManager } from './PhaserMainManager';
 import { EventBus } from '@/phaser/EventBus';
 
 const PhaserView: React.FC = () => {
@@ -59,7 +59,7 @@ const PhaserView: React.FC = () => {
 
             //Dev purpose only
             // Ensure all children of phaser-container are removed
-            const phaserContainer = document.getElementById('phaser-container');
+            const phaserContainer = document.getElementById('thegame');
             if (phaserContainer) {
                 while (phaserContainer.firstChild) {
                     phaserContainer.removeChild(phaserContainer.firstChild);
@@ -75,7 +75,7 @@ const PhaserView: React.FC = () => {
     return (
         <div className='relative h-full w-full'>
             <div className='absolute inset-0 pointer-events-none'>
-                <div ref={containerRef} className='w-full h-full' id="phaser-container"></div>
+                <div ref={containerRef} className='w-full h-full' id="thegame"></div>
             </div>
             <div className='relative z-10 h-full w-full'>
                 {/* Tu możesz umieścić inne elementy UI, które mają być nad grą */}

@@ -76,15 +76,18 @@ export class PhaserGameManager {
                 physics: {
                     default: 'arcade',
                     arcade: {
-                        gravity: { y: 0, x: 0 },
-                        debug: false
+                        debug: true,
+                        debugShowBody: true,                         // show body debug
+                        debugShowStaticBody: true,                   // show static body debug
+                        debugShowVelocity: true,                     // show velocity debug 
+                        gravity: { x: 0, y: 0 }
                     }
                 },
                 scene: [PreloadAssets,
-                    MenuScene,
-                    CharacterSelectScene,
-                    MapSelectScene,
-                    Map1Scene,]
+                        MenuScene,
+                        CharacterSelectScene,
+                        MapSelectScene,
+                        Map1Scene,]
             };
 
             this.game = new Phaser.Game(config);
