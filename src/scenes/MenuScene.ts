@@ -10,32 +10,49 @@ export class MenuScene extends Phaser.Scene {
     }
 
     create(): void {
+        this.layoutUI();
+        this.scale.on('resize', this.handleResize, this);
+    }
+
+    private handleResize(): void {
+        this.children.removeAll();
+        this.layoutUI();
+    }
+
+    private layoutUI(): void {
         const { width, height } = this.cameras.main;
         const centerX = width / 2;
 
         // Add game title
-        this.add.text(centerX, 100, 'Vampire Survivors', {
-            fontSize: '64px',
+        this.add.text(centerX, height * 0.2, 'Vampire Survivors', {
+            fontSize: `${Math.max(32, width * 0.04)}px`,
             color: '#ffffff',
             fontStyle: 'bold'
         }).setOrigin(0.5);
 
         // Create menu buttons
-        this.createMenuButton(centerX, height / 2 - 50, 'Start Game', () => {
-            this.scene.start('CharacterSelectScene');
-        });
+        this.createMenuButton(
+            centerX, 
+            height * 0.4, 
+            'Start Game', 
+            () => this.scene.start('CharacterSelectScene')
+        );
 
-        this.createMenuButton(centerX, height / 2 + 50, 'Options', () => {
-            this.scene.start('OptionsScene');
-        });
+        this.createMenuButton(
+            centerX, 
+            height * 0.5, 
+            'Options', 
+            () => this.scene.start('OptionsScene')
+        );
     }
 
     private createMenuButton(x: number, y: number, text: string, callback: () => void): void {
+        const { width, height } = this.cameras.main;
         const button = this.add.text(x, y, text, {
-            fontSize: '32px',
+            fontSize: `${Math.max(24, width * 0.02)}px`,
             color: '#ffffff',
             backgroundColor: '#000000',
-            padding: { x: 20, y: 10 }
+            padding: { x: width * 0.02, y: height * 0.01 }
         })
         .setOrigin(0.5)
         .setInteractive({ useHandCursor: true })

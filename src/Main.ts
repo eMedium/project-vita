@@ -15,9 +15,9 @@ const config: Phaser.Types.Core.GameConfig = {
         mode: Phaser.Scale.RESIZE,
         autoCenter: Phaser.Scale.CENTER_BOTH,
         parent: 'thegame',
-        width: window.innerWidth,
-        height: window.innerHeight,
-        expandParent: true,
+        width: '100%',
+        height: '100%',
+        expandParent: false,
         autoRound: true
     },
     physics: {
@@ -49,12 +49,21 @@ GameManager.initialize(game);
 
 // Handle window resizing
 const gameDiv = document.getElementById('thegame');
-if (gameDiv) {
-    const resizeObserver = new ResizeObserver(entries => {
-        for (let entry of entries) {
-            const { width, height } = entry.contentRect;
-            game.scale.resize(width, height);
-        }
+const contentDiv = document.getElementById('content'); // Get the content div
+
+if (gameDiv && contentDiv) {
+    const setGameSize = () => {
+        const contentRect = contentDiv.getBoundingClientRect(); // Use content div
+        game.scale.resize(contentRect.width, contentRect.height);
+        game.scale.refresh();
+    };
+
+    // Set initial game size
+    setGameSize();
+
+    const resizeObserver = new ResizeObserver(() => {
+        setGameSize();
     });
-    resizeObserver.observe(gameDiv);
+
+    resizeObserver.observe(contentDiv); // Observe the content div
 }

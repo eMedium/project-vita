@@ -4,27 +4,28 @@
 
 /* Custom styles */
 @layer base {
-    html, body {
-        @apply m-0 p-0 h-screen overflow-hidden;
+    html,
+    body {
+        @apply h-full m-0 p-0 overflow-hidden;
     }
+}
 
-    .h-screen {
-        @apply flex flex-col h-screen;
-    }
+body {
+    @apply flex flex-col h-screen;
+}
 
-    #header {
-        @apply flex-none p-4;
-    }
+#header {
+    @apply flex-none p-4 bg-red-500 text-white;
+}
 
-    #content {
-        @apply flex-1 relative overflow-hidden;
-    }
+#content {
+    @apply flex-1 relative bg-blue-400;
+}
 
-    #thegame {
-        @apply absolute w-full h-full;
-    }
+#thegame {
+    @apply absolute w-full h-full;
+}
 
-    #footer {
-        @apply flex-none p-2;
-    }
+#footer {
+    @apply flex-none p-2 bg-gray-800 text-white;
 }
