@@ -43,27 +43,6 @@ export class PhaserGameManager {
 
         try {
             // Game configuration and creation
-            class PreloadScene extends Phaser.Scene {
-                constructor() {
-                    super({ key: 'PreloadScene' });
-                }
-
-                preload() {
-                    this.load.pack('asset-pack', 'assets/asset-pack.json');
-                }
-
-                create() {
-                    const renderer = this.renderer as Phaser.Renderer.WebGL.WebGLRenderer;
-                    if (!renderer.pipelines.get('HsvColorReplacePipeline')) {
-                        renderer.pipelines.add('HsvColorReplacePipeline', new HsvColorReplacePipeline(this.game));
-                    }
-
-                    this.events.once(Phaser.Scenes.Events.POST_UPDATE, () => {
-                        logger.info('Starting MainOfficeScene');
-                        this.scene.start('MainOfficeScene');
-                    });
-                }
-            }
 
             const config: Phaser.Types.Core.GameConfig = {
                 type: Phaser.AUTO,

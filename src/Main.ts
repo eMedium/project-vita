@@ -40,10 +40,10 @@ const config: Phaser.Types.Core.GameConfig = {
 };
 
 // Initialize game instance
-//const game = new Phaser.Game(config);
+const game = new Phaser.Game(config);
 
 // Initialize managers with game instance
-//GameManager.initialize(game);
+GameManager.initialize(game);
 //EnemyManager.initialize(game);
 //InventoryManager.initialize(game);
 
