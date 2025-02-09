@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 /* Custom styles */
+/*
 @layer base {
     html,
     body {
@@ -11,7 +12,7 @@
 }
 
 body {
-    @apply flex flex-col h-screen;
+    @apply flex flex-col h-full;
 }
 
 #header {
@@ -19,7 +20,7 @@ body {
 }
 
 #content {
-    @apply flex-1 relative bg-blue-400;
+    @apply flex-1 w-full h-full bg-blue-400;
 }
 
 #thegame {
@@ -29,3 +30,4 @@ body {
 #footer {
     @apply flex-none p-2 bg-gray-800 text-white;
 }
+*/

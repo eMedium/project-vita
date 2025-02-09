@@ -40,10 +40,10 @@ const config: Phaser.Types.Core.GameConfig = {
 };
 
 // Initialize game instance
-const game = new Phaser.Game(config);
+//const game = new Phaser.Game(config);
 
 // Initialize managers with game instance
-GameManager.initialize(game);
+//GameManager.initialize(game);
 //EnemyManager.initialize(game);
 //InventoryManager.initialize(game);
 
@@ -53,17 +53,23 @@ const contentDiv = document.getElementById('content'); // Get the content div
 
 if (gameDiv && contentDiv) {
     const setGameSize = () => {
-        const contentRect = contentDiv.getBoundingClientRect(); // Use content div
-        game.scale.resize(contentRect.width, contentRect.height);
-        game.scale.refresh();
+        const contentRect = contentDiv.getBoundingClientRect();
+        //game.scale.resize(contentRect.width, contentRect.height);
+        //game.scale.refresh();
+        console.log('Resized game to: ' + contentRect.width + 'x' + contentRect.height);
     };
 
     // Set initial game size
     setGameSize();
 
+    // Observe content div for size changes
     const resizeObserver = new ResizeObserver(() => {
+        //setGameSize();
+    });
+    resizeObserver.observe(contentDiv);
+
+    // Also call setGameSize on window resize
+    window.addEventListener('resize', () => {
         setGameSize();
     });
-
-    resizeObserver.observe(contentDiv); // Observe the content div
 }
