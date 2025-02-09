@@ -1,0 +1,104 @@
+{
+    "id": "a5c4816d-9632-4c37-adcc-54527e1e90b1",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 3200,
+        "borderHeight": 1600
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "e7aa134e-d04a-44b4-a980-2b4ff897d52e",
+            "label": "container_1",
+            "blendMode": -1,
+            "y": -136,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "794a46dd-9396-432b-a8e3-47e35eb50b8b",
+                    "label": "room_Toilet",
+                    "texture": {
+                        "key": "Room_Toilet"
+                    },
+                    "y": 136
+                },
+                {
+                    "prefabId": "fe2f4b55-c11b-4617-815c-eb49490d3050",
+                    "id": "bed00892-845e-4424-a2c4-52cdcf8148a1",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "flower",
+                    "scope": "CLASS",
+                    "x": 110,
+                    "y": -41,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                },
+                {
+                    "prefabId": "fe2f4b55-c11b-4617-815c-eb49490d3050",
+                    "id": "000a2294-ce92-4396-beaf-69aed96657bd",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "flower_1",
+                    "scope": "CLASS",
+                    "x": 251,
+                    "y": 46,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                },
+                {
+                    "prefabId": "fe2f4b55-c11b-4617-815c-eb49490d3050",
+                    "id": "43fd00d2-2b55-4a2f-9091-829c2caa5cc3",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "flower_2",
+                    "scope": "CLASS",
+                    "x": 373,
+                    "y": 106,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                },
+                {
+                    "prefabId": "fe2f4b55-c11b-4617-815c-eb49490d3050",
+                    "id": "9ab03192-9504-4e94-a7aa-b36198674aa7",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "flower_3",
+                    "scope": "CLASS",
+                    "x": 30,
+                    "y": -86,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

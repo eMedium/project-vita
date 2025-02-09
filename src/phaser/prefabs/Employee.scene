@@ -1,0 +1,150 @@
+{
+    "id": "bf0b2bc7-d2a3-4b4a-b998-eaba8b58ef67",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT"
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "31d607b7-2b1e-4196-b415-be3f0c0b3795",
+            "label": "container_1",
+            "x": 442,
+            "y": -57,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "cef422e4-3f6d-46de-b790-b1be3ee39bbc",
+                    "label": "human_siedzenie_krzes_a_png",
+                    "texture": {
+                        "key": "phaser-raw",
+                        "frame": "human/siedzenie_krzesła.png"
+                    },
+                    "x": -188,
+                    "y": 323
+                },
+                {
+                    "type": "Image",
+                    "id": "a4d1056b-98d6-45c2-ab40-689ad932922a",
+                    "label": "human_table_png",
+                    "texture": {
+                        "key": "phaser-raw",
+                        "frame": "human/table.png"
+                    },
+                    "x": -240,
+                    "y": 370,
+                    "scaleX": 2,
+                    "scaleY": 2
+                },
+                {
+                    "type": "Image",
+                    "id": "adaf85c2-49ac-4b7f-a2f4-ce3653ef8948",
+                    "label": "human_papers_png",
+                    "texture": {
+                        "key": "phaser-raw",
+                        "frame": "human/papers.png"
+                    },
+                    "x": -224,
+                    "y": 168,
+                    "scaleX": 2,
+                    "scaleY": 2
+                },
+                {
+                    "type": "Image",
+                    "id": "69901ee3-d699-4cfc-9d66-1ff58452e5c7",
+                    "label": "human_man_pants1_png",
+                    "texture": {
+                        "key": "phaser-raw",
+                        "frame": "human/man_pants1.png"
+                    },
+                    "x": -171,
+                    "y": 326
+                },
+                {
+                    "type": "Image",
+                    "id": "183a0bc9-2e6a-49f2-bd30-b6adc282c042",
+                    "label": "human_women_skirt1_png",
+                    "texture": {
+                        "key": "phaser-raw",
+                        "frame": "human/women_skirt1.png"
+                    },
+                    "x": -171,
+                    "y": 326
+                },
+                {
+                    "prefabId": "6c74723b-a9b9-4152-bfb3-b6e5e34dc765",
+                    "id": "930b9ee0-1ba7-46da-b8e7-f0b44568c589",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "head_type"
+                    ],
+                    "label": "humanHead",
+                    "head_type": 1,
+                    "x": -175,
+                    "y": 328
+                },
+                {
+                    "type": "Sprite",
+                    "id": "6c320e37-be00-4068-9a53-6e7405ef7917",
+                    "label": "human_work001",
+                    "texture": {
+                        "key": "phaser-raw",
+                        "frame": "animation_human/animation_human0001.png"
+                    },
+                    "x": -184,
+                    "y": 333,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "animationPlayMethod": 1,
+                    "animationKey": "human_work001",
+                    "animationPreview": true
+                },
+                {
+                    "type": "Image",
+                    "id": "bf474fa2-83a5-46da-87c2-bca044e03538",
+                    "label": "human_oparcie_krzes_a_png",
+                    "texture": {
+                        "key": "phaser-raw",
+                        "frame": "human/oparcie_krzesła.png"
+                    },
+                    "x": -192,
+                    "y": 296
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "seed",
+            "label": "Seed",
+            "tooltip": "Seed for generating unique look",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "skin_color",
+            "label": "Skin Color",
+            "tooltip": "Color of the skin",
+            "defValue": "#D93800",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}

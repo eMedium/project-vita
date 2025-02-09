@@ -1,0 +1,140 @@
+{
+  "buttons": {
+    "new_game": "NEW GAME",
+    "load_game": "LOAD GAME",
+    "settings": "SETTINGS",
+    "close": "Close",
+    "cancel": "Cancel"
+  },
+  "settings": {
+    "title": "Settings",
+    "developer_mode": "Developer Mode",
+    "sound": "Sound",
+    "sound_volume": "Sound Volume",
+    "music": "Music",
+    "music_volume": "Music Volume",
+    "language": "Language",
+    "google_analytics": "Google Analytics"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "pl": "Polish",
+    "ar": "Arabic",
+    "ko": "Korean",
+    "ja": "Japanese",
+    "it": "Italian"
+  },
+  "consuments": {
+    "generalPublic": "Casual Buyers",
+    "brandFan": "Brand Fans",
+    "performanceManiac": "Performance Maniacs",
+    "specialInstitution": "Special Institutions",
+    "industry": "Industry Clients",
+    "priceSensitive": "Price-Sensitive Buyers",
+    "smallBusiness": "Small Businesses",
+    "governmentAgency": "Government Agencies",
+    "techEnthusiast": "Tech Enthusiasts",
+    "educationalInstitution": "Educational Institutions",
+    "largeEnterprise": "Large Enterprises",
+    "favorite_cpu": "Favorite CPU",
+    "level": "LVL:",
+    "next_level_requirements": "NEXT LEVEL REQUIREMENTS"
+  },
+  "tutorial": {
+    "title": "Tutorial",
+    "step_1": "Let's create first CPU!",
+    "step_2": "Step 2: Upgrade your factory",
+    "step_3": "Step 3: Build your first warehouse",
+    "step_4": "Step 4: Sell your products",
+    "step_5": "Step 5: Manage your finances"
+  },
+  "cpu_development": {
+    "title": "CPU Development",
+    "selectOption": "Select Option",
+    "product_name": "Name of your product",
+    "product_name_placeholder": "Enter product name",
+    "lithography": "Lithography",
+    "package_type": "Package Type",
+    "clock": "Clock Speed",
+    "cores": "Cores",
+    "confirm": "Start Production"
+  },
+  "package_type": {
+    "none_0": "Missing",
+    "dip_1": "DIP 14",
+    "dip_2": "DIP 18",
+    "dip_3": "DIP 24",
+    "dip_5": "DIP 32",
+    "dip_6": "DIP 48",
+    "dip_7": "DIP 56",
+    "dip_8": "DIP 64",
+    "dip_9": "DIP 72"
+  },
+  "cpu_speed_type": {
+    "clock_1": "200 khz",
+    "clock_2": "400 khz",
+    "clock_3": "750 khz",
+    "clock_4": "900 khz",
+    "clock_5": "1.5 MHz",
+    "clock_6": "2.5 MHz",
+    "clock_7": "4.0 MHz",
+    "clock_8": "6.5 MHz"
+  },
+  "cpu_release": {
+    "title": "CPU Release",
+    "product_name": "Name of your product",
+    "start_production": "Start Production",
+    "profit": "Profit per unit"
+  },
+  "room_manager": {
+    "title": "Office",
+    "is_built": "Is built",
+    "employees": "Workers",
+    "employee_name": "Name",
+    "furnitures": "Furnitures",
+    "furniture_buy": "Buy Furniture",
+    "furniture_upgrade": "Upgrade Furniture",
+    "furniture_level": "Level",
+    "add_employee": "Hire Worker",
+    "previous_floor": "Previous Floor",
+    "next_floor": "Next Floor",
+    "room_type": "Type of room",
+    "room_name": "Room Name",
+    "no_floor": "No floor",
+    "floor": "Standard Room",
+    "room_name_toiletroom": "Toilets",
+    "room_name_researchroom": "Research Room",
+    "room_name_resting": "Resting Room",
+    "room_name_ceoroom": "CEO",
+    "room_name_salesroom": "Sales Room",
+    "room_name_developmentroom": "Blueprints Room",
+    "room_name_conferenceroom": "Conference Room",
+    "context_workers": "Workers",
+    "context_rooms": "Rooms",
+    "build_room": "Build Room",
+    "build_cost": "Build Cost",
+    "new_floor": "New Floor",
+    "current_floor": "Current Floor",
+    "floor_cost": "Purchase Cost",
+    "purchase_floor": "Purchase New Floor"
+  },
+  "marketing": {
+    "product": "Product",
+    "total_cost": "Total cost",
+    "start_campaign": "Start Campaign",
+    "Flyers": "Flyers campaign",
+    "TV": "TV campaign",
+    "Radio": "Radio campaign",
+    "Magazines": "Magazines campaign",
+    "Billboards": "Billboards campaign",
+    "Posters": "Posters campaign",
+    "Internet": "Internet campaign"
+  },
+  "consumerLevelUp": {
+    "progressToNextLevel": "Progress to Next Level",
+    "discovered": "{{discovered}} / {{population}} Discovered",
+    "levelUp": "Level Up"
+  }
+}

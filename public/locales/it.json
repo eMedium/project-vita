@@ -1,0 +1,17 @@
+{
+    "buttons": {
+      "new_game": "NUOVO GIOCO",
+      "load_game": "CARICA GIOCO",
+      "settings": "IMPOSTAZIONI"
+    },
+    "settings": {
+      "developer_mode": "Modalità Sviluppatore",
+      "sound": "Suono",
+      "sound_volume": "Volume del Suono",
+      "music": "Musica",
+      "music_volume": "Volume della Musica",
+      "language": "Lingua",
+      "google_analytics": "Google Analytics"
+    }
+  }
+  

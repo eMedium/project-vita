@@ -1,0 +1,82 @@
+{
+    "id": "6c74723b-a9b9-4152-bfb3-b6e5e34dc765",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 2400,
+        "borderHeight": 1600
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "6b176171-5551-4e26-940b-48545de2fbf5",
+            "label": "container_1",
+            "y": -232,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "066e8829-5493-4bee-9f7f-8b7c0c0099e0",
+                    "label": "human_man_hair1_png",
+                    "texture": {
+                        "key": "phaser-raw",
+                        "frame": "human/man_hair1.png"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "88394b1e-e347-4b39-9386-24dd3b2e93f0",
+                    "label": "human_man_hair2_png",
+                    "texture": {
+                        "key": "phaser-raw",
+                        "frame": "human/man_hair2.png"
+                    },
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "49843b85-0b1d-4577-a600-2508229f1e80",
+                    "label": "human_women_hair1_png",
+                    "texture": {
+                        "key": "phaser-raw",
+                        "frame": "human/women_hair1.png"
+                    },
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "a59c4113-584a-4053-a23d-f417e964ce3f",
+                    "label": "human_women_hair2_png",
+                    "texture": {
+                        "key": "phaser-raw",
+                        "frame": "human/women_hair2.png"
+                    },
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "head_type",
+            "label": "Head Type",
+            "tooltip": "How your head should look",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

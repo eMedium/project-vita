@@ -1,0 +1,230 @@
+{
+    "id": "bba30ab6-3f7b-430d-aceb-351176e61a6b",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 3200,
+        "borderHeight": 1600
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "f8eb2910-b4df-45a4-be7a-ed479d36a272",
+            "label": "container_1",
+            "blendMode": -1,
+            "y": -90,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "24166f60-c60e-476a-b51a-b8727ba31a8f",
+                    "label": "room_2",
+                    "texture": {
+                        "key": "Room_2"
+                    },
+                    "y": 90
+                },
+                {
+                    "prefabId": "bf0b2bc7-d2a3-4b4a-b998-eaba8b58ef67",
+                    "id": "2d613903-da4f-4ecb-a55c-97cc9c4e87bb",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "employee_1",
+                    "scope": "CLASS",
+                    "x": 217,
+                    "y": -252,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                },
+                {
+                    "prefabId": "bf0b2bc7-d2a3-4b4a-b998-eaba8b58ef67",
+                    "id": "7d0bc826-e0a9-48ca-ad5c-3d337ec48ea3",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "employee_2",
+                    "scope": "CLASS",
+                    "x": 370,
+                    "y": -156,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                },
+                {
+                    "prefabId": "bf0b2bc7-d2a3-4b4a-b998-eaba8b58ef67",
+                    "id": "1d9d90b0-9852-4367-8bac-fa27f98fa572",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "employee",
+                    "scope": "CLASS",
+                    "x": 536,
+                    "y": -62,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                },
+                {
+                    "prefabId": "bf0b2bc7-d2a3-4b4a-b998-eaba8b58ef67",
+                    "id": "c43729c5-7c81-46d5-9b3d-06ecafce9d85",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "employee_3",
+                    "scope": "CLASS",
+                    "x": 16,
+                    "y": -139,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                },
+                {
+                    "prefabId": "bf0b2bc7-d2a3-4b4a-b998-eaba8b58ef67",
+                    "id": "8a618e04-5bcb-4537-b607-3f6ea9bdca7e",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "employee_5",
+                    "scope": "CLASS",
+                    "x": 335,
+                    "y": 51,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                },
+                {
+                    "prefabId": "bf0b2bc7-d2a3-4b4a-b998-eaba8b58ef67",
+                    "id": "332208d2-6934-4173-9f72-2c9d0db8c17b",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "employee_4",
+                    "scope": "CLASS",
+                    "x": -182,
+                    "y": -20,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                },
+                {
+                    "prefabId": "bf0b2bc7-d2a3-4b4a-b998-eaba8b58ef67",
+                    "id": "09c8665e-d245-41e0-88aa-050ccd53f25b",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "employee_6",
+                    "scope": "CLASS",
+                    "x": 137,
+                    "y": 170,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                },
+                {
+                    "prefabId": "bf0b2bc7-d2a3-4b4a-b998-eaba8b58ef67",
+                    "id": "07857e4b-d701-45ba-9743-687653871ce7",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "employee_7",
+                    "scope": "CLASS",
+                    "x": -416,
+                    "y": 108,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                },
+                {
+                    "prefabId": "bf0b2bc7-d2a3-4b4a-b998-eaba8b58ef67",
+                    "id": "6af288f2-1cb8-463a-ad9a-9689553c4c11",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "employee_8",
+                    "scope": "CLASS",
+                    "x": -97,
+                    "y": 298,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                },
+                {
+                    "prefabId": "fe2f4b55-c11b-4617-815c-eb49490d3050",
+                    "id": "50f56ab4-7fd9-4c09-9bbe-fd2c05629ddd",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "flower",
+                    "displayName": "furniture_1",
+                    "scope": "CLASS",
+                    "x": -15,
+                    "y": 101,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "prefabId": "fe2f4b55-c11b-4617-815c-eb49490d3050",
+                    "id": "5e1268cd-8a0d-488e-854b-c59376cbd68e",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "flower_1",
+                    "displayName": "furniture_1",
+                    "scope": "CLASS",
+                    "x": -140,
+                    "y": 188,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "roomId",
+            "label": "Room Id",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

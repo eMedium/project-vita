@@ -1,0 +1,72 @@
+{
+    "id": "ab0082c5-262a-4ea2-8fed-acea8cfd554c",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 3200,
+        "borderHeight": 1600
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "9272cd49-3aa1-4d75-8890-7b60da515d97",
+            "label": "container_1",
+            "blendMode": -1,
+            "x": -87,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "14b7bb46-1477-45f5-a230-81a5f9cd8cab",
+                    "label": "room_1",
+                    "texture": {
+                        "key": "Room_1"
+                    },
+                    "x": 87
+                },
+                {
+                    "prefabId": "bf0b2bc7-d2a3-4b4a-b998-eaba8b58ef67",
+                    "id": "c792a2f9-1456-4cf2-83ab-976e608fb642",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "employee",
+                    "scope": "CLASS",
+                    "x": -172,
+                    "y": -207,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                },
+                {
+                    "prefabId": "fe2f4b55-c11b-4617-815c-eb49490d3050",
+                    "id": "db76de43-2066-4fa8-919b-b8e65b95cc28",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "flower",
+                    "scope": "CLASS",
+                    "x": -53,
+                    "y": -257,
+                    "scaleX": 0.562456705516718,
+                    "scaleY": 0.5857079585925713
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

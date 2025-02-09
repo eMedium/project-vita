@@ -1,0 +1,1501 @@
+{
+	"textures": [
+		{
+			"image": "phaser-flower001-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1843,
+				"h": 2004
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Kwiat_Frame0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 1,
+						"w": 264,
+						"h": 332
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 264,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 1,
+						"w": 264,
+						"h": 332
+					},
+					"frame": {
+						"x": 1,
+						"y": 335,
+						"w": 264,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 1,
+						"w": 264,
+						"h": 332
+					},
+					"frame": {
+						"x": 1,
+						"y": 669,
+						"w": 264,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 1,
+						"w": 264,
+						"h": 332
+					},
+					"frame": {
+						"x": 1,
+						"y": 1003,
+						"w": 264,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 1,
+						"w": 264,
+						"h": 332
+					},
+					"frame": {
+						"x": 1,
+						"y": 1337,
+						"w": 264,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 1,
+						"w": 264,
+						"h": 332
+					},
+					"frame": {
+						"x": 1,
+						"y": 1671,
+						"w": 264,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 1,
+						"w": 264,
+						"h": 332
+					},
+					"frame": {
+						"x": 267,
+						"y": 1,
+						"w": 264,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 1,
+						"w": 263,
+						"h": 332
+					},
+					"frame": {
+						"x": 267,
+						"y": 335,
+						"w": 263,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 1,
+						"w": 263,
+						"h": 332
+					},
+					"frame": {
+						"x": 267,
+						"y": 669,
+						"w": 263,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 1,
+						"w": 263,
+						"h": 332
+					},
+					"frame": {
+						"x": 267,
+						"y": 1003,
+						"w": 263,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 1,
+						"w": 263,
+						"h": 332
+					},
+					"frame": {
+						"x": 267,
+						"y": 1337,
+						"w": 263,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 1,
+						"w": 263,
+						"h": 332
+					},
+					"frame": {
+						"x": 267,
+						"y": 1671,
+						"w": 263,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 1,
+						"w": 263,
+						"h": 332
+					},
+					"frame": {
+						"x": 532,
+						"y": 335,
+						"w": 263,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 1,
+						"w": 262,
+						"h": 332
+					},
+					"frame": {
+						"x": 533,
+						"y": 1,
+						"w": 262,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 1,
+						"w": 262,
+						"h": 332
+					},
+					"frame": {
+						"x": 532,
+						"y": 669,
+						"w": 262,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 1,
+						"w": 262,
+						"h": 332
+					},
+					"frame": {
+						"x": 532,
+						"y": 1003,
+						"w": 262,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 1,
+						"w": 262,
+						"h": 332
+					},
+					"frame": {
+						"x": 532,
+						"y": 1337,
+						"w": 262,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 1,
+						"w": 262,
+						"h": 332
+					},
+					"frame": {
+						"x": 532,
+						"y": 1671,
+						"w": 262,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 1,
+						"w": 262,
+						"h": 332
+					},
+					"frame": {
+						"x": 796,
+						"y": 669,
+						"w": 262,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 1,
+						"w": 262,
+						"h": 332
+					},
+					"frame": {
+						"x": 797,
+						"y": 1,
+						"w": 262,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 1,
+						"w": 261,
+						"h": 332
+					},
+					"frame": {
+						"x": 797,
+						"y": 335,
+						"w": 261,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 1,
+						"w": 261,
+						"h": 332
+					},
+					"frame": {
+						"x": 796,
+						"y": 1003,
+						"w": 261,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 1,
+						"w": 261,
+						"h": 332
+					},
+					"frame": {
+						"x": 796,
+						"y": 1337,
+						"w": 261,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 1,
+						"w": 261,
+						"h": 332
+					},
+					"frame": {
+						"x": 796,
+						"y": 1671,
+						"w": 261,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 1,
+						"w": 261,
+						"h": 332
+					},
+					"frame": {
+						"x": 1059,
+						"y": 1003,
+						"w": 261,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 1,
+						"w": 260,
+						"h": 332
+					},
+					"frame": {
+						"x": 1060,
+						"y": 335,
+						"w": 260,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 1,
+						"w": 260,
+						"h": 332
+					},
+					"frame": {
+						"x": 1061,
+						"y": 1,
+						"w": 260,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 1,
+						"w": 260,
+						"h": 332
+					},
+					"frame": {
+						"x": 1060,
+						"y": 669,
+						"w": 260,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 1,
+						"w": 260,
+						"h": 332
+					},
+					"frame": {
+						"x": 1059,
+						"y": 1337,
+						"w": 260,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 1,
+						"w": 260,
+						"h": 332
+					},
+					"frame": {
+						"x": 1059,
+						"y": 1671,
+						"w": 260,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 1,
+						"w": 260,
+						"h": 332
+					},
+					"frame": {
+						"x": 1321,
+						"y": 1337,
+						"w": 260,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 1,
+						"w": 259,
+						"h": 332
+					},
+					"frame": {
+						"x": 1321,
+						"y": 1671,
+						"w": 259,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 1,
+						"w": 259,
+						"h": 332
+					},
+					"frame": {
+						"x": 1582,
+						"y": 1671,
+						"w": 259,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 1,
+						"w": 259,
+						"h": 332
+					},
+					"frame": {
+						"x": 1322,
+						"y": 335,
+						"w": 259,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 1,
+						"w": 259,
+						"h": 332
+					},
+					"frame": {
+						"x": 1323,
+						"y": 1,
+						"w": 259,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 1,
+						"w": 259,
+						"h": 332
+					},
+					"frame": {
+						"x": 1322,
+						"y": 669,
+						"w": 259,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 1,
+						"w": 259,
+						"h": 332
+					},
+					"frame": {
+						"x": 1322,
+						"y": 1003,
+						"w": 259,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 1,
+						"w": 259,
+						"h": 332
+					},
+					"frame": {
+						"x": 1583,
+						"y": 335,
+						"w": 259,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 1,
+						"w": 258,
+						"h": 332
+					},
+					"frame": {
+						"x": 1584,
+						"y": 1,
+						"w": 258,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 1,
+						"w": 258,
+						"h": 332
+					},
+					"frame": {
+						"x": 1583,
+						"y": 669,
+						"w": 258,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 1,
+						"w": 258,
+						"h": 332
+					},
+					"frame": {
+						"x": 1583,
+						"y": 1003,
+						"w": 258,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 1,
+						"w": 258,
+						"h": 332
+					},
+					"frame": {
+						"x": 1583,
+						"y": 1337,
+						"w": 258,
+						"h": 332
+					}
+				}
+			]
+		},
+		{
+			"image": "phaser-flower001-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1273,
+				"h": 1996
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Kwiat_Frame0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 1,
+						"w": 257,
+						"h": 332
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 257,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 2,
+						"w": 257,
+						"h": 331
+					},
+					"frame": {
+						"x": 1,
+						"y": 335,
+						"w": 257,
+						"h": 331
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 2,
+						"w": 256,
+						"h": 331
+					},
+					"frame": {
+						"x": 260,
+						"y": 1,
+						"w": 256,
+						"h": 331
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 2,
+						"w": 256,
+						"h": 331
+					},
+					"frame": {
+						"x": 1,
+						"y": 668,
+						"w": 256,
+						"h": 331
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 2,
+						"w": 255,
+						"h": 331
+					},
+					"frame": {
+						"x": 260,
+						"y": 334,
+						"w": 255,
+						"h": 331
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 2,
+						"w": 254,
+						"h": 331
+					},
+					"frame": {
+						"x": 518,
+						"y": 1,
+						"w": 254,
+						"h": 331
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 2,
+						"w": 254,
+						"h": 331
+					},
+					"frame": {
+						"x": 1,
+						"y": 1001,
+						"w": 254,
+						"h": 331
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 2,
+						"w": 253,
+						"h": 331
+					},
+					"frame": {
+						"x": 517,
+						"y": 334,
+						"w": 253,
+						"h": 331
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 2,
+						"w": 253,
+						"h": 331
+					},
+					"frame": {
+						"x": 774,
+						"y": 1,
+						"w": 253,
+						"h": 331
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0067.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 4,
+						"w": 254,
+						"h": 329
+					},
+					"frame": {
+						"x": 1,
+						"y": 1334,
+						"w": 254,
+						"h": 329
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0069.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 4,
+						"w": 254,
+						"h": 329
+					},
+					"frame": {
+						"x": 772,
+						"y": 334,
+						"w": 254,
+						"h": 329
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0070.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 4,
+						"w": 254,
+						"h": 329
+					},
+					"frame": {
+						"x": 1,
+						"y": 1665,
+						"w": 254,
+						"h": 329
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 2,
+						"w": 252,
+						"h": 331
+					},
+					"frame": {
+						"x": 257,
+						"y": 1001,
+						"w": 252,
+						"h": 331
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0059.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 3,
+						"w": 252,
+						"h": 330
+					},
+					"frame": {
+						"x": 257,
+						"y": 1334,
+						"w": 252,
+						"h": 330
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 2,
+						"w": 251,
+						"h": 331
+					},
+					"frame": {
+						"x": 259,
+						"y": 668,
+						"w": 251,
+						"h": 331
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0064.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 4,
+						"w": 253,
+						"h": 329
+					},
+					"frame": {
+						"x": 512,
+						"y": 667,
+						"w": 253,
+						"h": 329
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0065.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 4,
+						"w": 253,
+						"h": 329
+					},
+					"frame": {
+						"x": 257,
+						"y": 1666,
+						"w": 253,
+						"h": 329
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0066.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 4,
+						"w": 253,
+						"h": 329
+					},
+					"frame": {
+						"x": 767,
+						"y": 667,
+						"w": 253,
+						"h": 329
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 2,
+						"w": 250,
+						"h": 331
+					},
+					"frame": {
+						"x": 1022,
+						"y": 665,
+						"w": 250,
+						"h": 331
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 2,
+						"w": 251,
+						"h": 331
+					},
+					"frame": {
+						"x": 511,
+						"y": 1001,
+						"w": 251,
+						"h": 331
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0062.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 3,
+						"w": 252,
+						"h": 330
+					},
+					"frame": {
+						"x": 511,
+						"y": 1334,
+						"w": 252,
+						"h": 330
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0068.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 4,
+						"w": 253,
+						"h": 329
+					},
+					"frame": {
+						"x": 512,
+						"y": 1666,
+						"w": 253,
+						"h": 329
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0063.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 4,
+						"w": 252,
+						"h": 329
+					},
+					"frame": {
+						"x": 764,
+						"y": 998,
+						"w": 252,
+						"h": 329
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0057.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 3,
+						"w": 251,
+						"h": 330
+					},
+					"frame": {
+						"x": 1018,
+						"y": 998,
+						"w": 251,
+						"h": 330
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0058.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 3,
+						"w": 251,
+						"h": 330
+					},
+					"frame": {
+						"x": 765,
+						"y": 1329,
+						"w": 251,
+						"h": 330
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0060.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 3,
+						"w": 251,
+						"h": 330
+					},
+					"frame": {
+						"x": 1018,
+						"y": 1330,
+						"w": 251,
+						"h": 330
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0061.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 3,
+						"w": 251,
+						"h": 330
+					},
+					"frame": {
+						"x": 767,
+						"y": 1662,
+						"w": 251,
+						"h": 330
+					}
+				},
+				{
+					"filename": "Kwiat_Frame0056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 333
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 3,
+						"w": 250,
+						"h": 330
+					},
+					"frame": {
+						"x": 1020,
+						"y": 1662,
+						"w": 250,
+						"h": 330
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:00299430042098d20df23b56bad634bf:766c87795e68f8da270e75c8c7ec4aa7:61cb54216ebf182c6e43ef9a4bbc3b5b$"
+	}
+}

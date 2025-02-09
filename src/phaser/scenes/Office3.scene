@@ -1,0 +1,25 @@
+{
+  "id": "f946258e-8ef2-4ea7-853d-cb9cb7dc2197",
+  "settings": {
+    "compilerOutputLanguage": "TYPE_SCRIPT",
+    "javaScriptInitFieldsInConstructor": false,
+    "exportClass": true,
+    "autoImport": false,
+    "importFileExtension": false,
+    "createMethodName": "editorCreate",
+    "compilerInsertSpaces": false,
+    "compilerTabSize": 4,
+    "borderWidth": 3200,
+    "borderHeight": 1600,
+    "borderX": 0,
+    "borderY": 0,
+    "sceneKey": "Office3"
+  },
+  "sceneType": "SCENE",
+  "displayList": [],
+  "meta": {
+    "app": "Phaser Editor 2D - Scene Editor",
+    "url": "https://phasereditor2d.com",
+    "contentType": "phasereditor2d.core.scene.SceneContentType"
+  }
+}

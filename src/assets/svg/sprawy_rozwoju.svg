@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Warstwa_5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="49" y="674" width="413" height="258" rx="70.06" ry="70.06"/>
+  <rect class="cls-1" x="561" y="674" width="413" height="258" rx="70.06" ry="70.06"/>
+  <rect class="cls-1" x="305" y="56" width="413" height="258" rx="70.06" ry="70.06"/>
+  <g>
+    <g>
+      <line class="cls-1" x1="326" y1="595" x2="528.5" y2="392.5"/>
+      <rect class="cls-1" x="284.06" y="468.75" width="286.38" height="50" rx="25" ry="25" transform="translate(-224 446.73) rotate(-45)"/>
+    </g>
+    <g>
+      <line class="cls-1" x1="697.5" y1="595" x2="495" y2="392.5"/>
+      <rect class="cls-1" x="571.25" y="350.56" width="50" height="286.38" rx="25" ry="25" transform="translate(-174.5 566.23) rotate(-45)"/>
+    </g>
+  </g>
+</svg>

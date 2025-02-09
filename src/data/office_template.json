@@ -1,0 +1,198 @@
+{
+  "floorTemplate": [
+    {
+      "placementId": 1,
+      "name": "CEO Office",
+      "furnitures": [
+        {
+          "id": 1,
+          "name": "Executive Desk",
+          "cost": 2000,
+          "bonusType": "management",
+          "bonusValue": 5
+        },
+        {
+          "id": 2,
+          "name": "Leather Chair",
+          "cost": 1000,
+          "bonusType": "comfort",
+          "bonusValue": 3
+        },
+        {
+          "id": 3,
+          "name": "Mahogany Bookshelf",
+          "cost": 1500,
+          "bonusType": "prestige",
+          "bonusValue": 4
+        },
+        {
+          "id": 4,
+          "name": "Modern Art Piece",
+          "cost": 3000,
+          "bonusType": "prestige",
+          "bonusValue": 5
+        },
+        {
+          "id": 5,
+          "name": "Exotic Plant",
+          "cost": 500,
+          "bonusType": "comfort",
+          "bonusValue": 2
+        }
+      ],
+      "buildCost": 0,
+      "maxEmployees": 1,
+      "roomType": "CEORoom"
+    },
+    {
+      "placementId": 2,
+      "name": "Sales Room",
+      "furnitures": [
+        {
+          "id": 1,
+          "name": "Modern Desk",
+          "cost": 800,
+          "bonusType": "sales",
+          "bonusValue": 3
+        },
+        {
+          "id": 2,
+          "name": "Ergonomic Chair",
+          "cost": 500,
+          "bonusType": "comfort",
+          "bonusValue": 2
+        },
+        {
+          "id": 3,
+          "name": "File Cabinet",
+          "cost": 400,
+          "bonusType": "organization",
+          "bonusValue": 2
+        },
+        {
+          "id": 4,
+          "name": "Digital Whiteboard",
+          "cost": 1200,
+          "bonusType": "sales",
+          "bonusValue": 4
+        },
+        {
+          "id": 5,
+          "name": "Premium Coffee Machine",
+          "cost": 700,
+          "bonusType": "morale",
+          "bonusValue": 3
+        }
+      ],
+      "buildCost": 0,
+      "maxEmployees": 5,
+      "roomType": "SalesRoom"
+    },
+    {
+      "placementId": 3,
+      "name": "Research Room",
+      "furnitures": [
+        {
+          "id": 1,
+          "name": "Research Station",
+          "cost": 2000,
+          "bonusType": "research",
+          "bonusValue": 5
+        },
+        {
+          "id": 2,
+          "name": "Lab Equipment",
+          "cost": 1500,
+          "bonusType": "efficiency",
+          "bonusValue": 4
+        },
+        {
+          "id": 3,
+          "name": "Technical Library",
+          "cost": 1000,
+          "bonusType": "knowledge",
+          "bonusValue": 3
+        },
+        {
+          "id": 4,
+          "name": "Digital Analysis Tools",
+          "cost": 1800,
+          "bonusType": "research",
+          "bonusValue": 4
+        }
+      ],
+      "buildCost": 5000,
+      "maxEmployees": 5,
+      "roomType": "ResearchRoom"
+    },
+    {
+      "placementId": 4,
+      "name": "Development Room",
+      "furnitures": [
+        {
+          "id": 1,
+          "name": "Development Workstation",
+          "cost": 2500,
+          "bonusType": "development",
+          "bonusValue": 5
+        },
+        {
+          "id": 2,
+          "name": "Testing Equipment",
+          "cost": 2000,
+          "bonusType": "testing",
+          "bonusValue": 4
+        },
+        {
+          "id": 3,
+          "name": "Component Storage",
+          "cost": 1000,
+          "bonusType": "organization",
+          "bonusValue": 3
+        }
+      ],
+      "buildCost": 8000,
+      "maxEmployees": 6,
+      "roomType": "DevelopmentRoom"
+    },
+    {
+      "placementId": 5,
+      "name": "Conference Room",
+      "furnitures": [
+        {
+          "id": 1,
+          "name": "Conference Table",
+          "cost": 3000,
+          "bonusType": "collaboration",
+          "bonusValue": 5
+        },
+        {
+          "id": 2,
+          "name": "Presentation System",
+          "cost": 2000,
+          "bonusType": "communication",
+          "bonusValue": 4
+        }
+      ],
+      "buildCost": 10000,
+      "maxEmployees": 12,
+      "roomType": "ConferenceRoom"
+    },
+    {
+      "placementId": 6,
+      "name": "Toilet Room",
+      "furnitures": [
+        {
+          "id": 1,
+          "name": "Basic Facilities",
+          "cost": 1000,
+          "bonusType": "hygiene",
+          "bonusValue": 3
+        }
+      ],
+      "buildCost": 3000,
+      "maxEmployees": 0,
+      "roomType": "ToiletRoom"
+    }
+  ]
+}

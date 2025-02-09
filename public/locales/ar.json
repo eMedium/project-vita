@@ -1,0 +1,17 @@
+{
+    "buttons": {
+      "new_game": "لعبة جديدة",
+      "load_game": "تحميل اللعبة",
+      "settings": "الإعدادات"
+    },
+    "settings": {
+      "developer_mode": "وضع المطور",
+      "sound": "الصوت",
+      "sound_volume": "مستوى الصوت",
+      "music": "الموسيقى",
+      "music_volume": "مستوى الموسيقى",
+      "language": "اللغة",
+      "google_analytics": "تحليلات جوجل"
+    }
+  }
+  

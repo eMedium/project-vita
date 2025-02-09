@@ -1,6 +1,4 @@
 import { IMapConfig } from '../../types/MapTypes';
-import { EnemyManager } from '../../managers/EnemyManager';
-import { GameManager } from '../../managers/GameManager';
 import { Player } from '../../entities/Player';
 import { EnemyType } from '../../types/EnemyTypes';
 import { Zombie, zombieConfig } from './enemies/Zombie';

@@ -1,0 +1,103 @@
+{
+    "id": "77740d97-4002-4372-8827-a782fbf75bf5",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "MainOfficeScene",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 3200,
+        "borderHeight": 1600
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "832bff83-1e94-433f-8624-06d16521c77a",
+            "label": "pokoje_podgl_d",
+            "texture": {
+                "key": "pokoje podgląd"
+            },
+            "y": 144
+        },
+        {
+            "prefabId": "a5c4816d-9632-4c37-adcc-54527e1e90b1",
+            "id": "95a7ec2f-231d-43a1-a4a6-f85338c2771e",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "toiletRoom",
+            "scope": "CLASS",
+            "x": -391,
+            "y": 250
+        },
+        {
+            "prefabId": "c44823b2-7b89-4473-b7f1-34cf07a28b9a",
+            "id": "a921faca-3589-469d-8b52-962beaa70259",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "conferenceRoom",
+            "scope": "CLASS",
+            "x": 154,
+            "y": 428
+        },
+        {
+            "prefabId": "3d06d2ca-cf28-4781-8478-071c39f2e04d",
+            "id": "6044474f-7801-4fa2-adfa-785f683341d7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "researchRoom",
+            "scope": "CLASS",
+            "x": -638,
+            "y": -437
+        },
+        {
+            "prefabId": "2bfcd2ad-64c5-42f6-a611-b5aabfd5edb8",
+            "id": "ed34ce37-823c-45fd-be41-09ac31108189",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "developmentRoom",
+            "scope": "CLASS",
+            "x": 326,
+            "y": -353
+        },
+        {
+            "prefabId": "bba30ab6-3f7b-430d-aceb-351176e61a6b",
+            "id": "5a813f20-be6a-4c06-a203-ea6c0117db2f",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "salesRoom",
+            "scope": "CLASS",
+            "x": 1071,
+            "y": 20
+        },
+        {
+            "prefabId": "ab0082c5-262a-4ea2-8fed-acea8cfd554c",
+            "id": "25ce1950-b9b2-4b27-b870-a0cb97fc4b34",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "cEORoom",
+            "scope": "CLASS",
+            "x": -965,
+            "y": -5
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

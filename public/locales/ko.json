@@ -1,0 +1,17 @@
+{
+    "buttons": {
+      "new_game": "새 게임",
+      "load_game": "게임 불러오기",
+      "settings": "설정"
+    },
+    "settings": {
+      "developer_mode": "개발자 모드",
+      "sound": "소리",
+      "sound_volume": "소리 볼륨",
+      "music": "음악",
+      "music_volume": "음악 볼륨",
+      "language": "언어",
+      "google_analytics": "구글 애널리틱스"
+    }
+  }
+  

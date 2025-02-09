@@ -1,0 +1,112 @@
+{"frames": {
+
+"human_animations/chair.png":
+{
+	"frame": {"x":384,"y":1461,"w":201,"h":282},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":411,"y":377,"w":201,"h":282},
+	"sourceSize": {"w":1024,"h":1024}
+},
+"human_animations/man_hair1.png":
+{
+	"frame": {"x":668,"y":1461,"w":191,"h":251},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1167,"y":585,"w":191,"h":251},
+	"sourceSize": {"w":2048,"h":2048}
+},
+"human_animations/man_hair2.png":
+{
+	"frame": {"x":1815,"y":995,"w":208,"h":236},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1158,"y":600,"w":208,"h":236},
+	"sourceSize": {"w":2048,"h":2048}
+},
+"human_animations/man_pants1.png":
+{
+	"frame": {"x":921,"y":1343,"w":497,"h":324},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":895,"y":980,"w":497,"h":324},
+	"sourceSize": {"w":2048,"h":2048}
+},
+"human_animations/oparcie_krzesła.png":
+{
+	"frame": {"x":1,"y":995,"w":381,"h":561},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1142,"y":899,"w":381,"h":561},
+	"sourceSize": {"w":2048,"h":2048}
+},
+"human_animations/papers.png":
+{
+	"frame": {"x":1879,"y":1233,"w":169,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":427,"y":449,"w":169,"h":126},
+	"sourceSize": {"w":1024,"h":1024}
+},
+"human_animations/siedzenie_krzesła.png":
+{
+	"frame": {"x":1420,"y":1275,"w":347,"h":457},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1121,"y":1005,"w":347,"h":457},
+	"sourceSize": {"w":2048,"h":2048}
+},
+"human_animations/table.png":
+{
+	"frame": {"x":384,"y":995,"w":464,"h":434},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":280,"y":295,"w":464,"h":434},
+	"sourceSize": {"w":1024,"h":1024}
+},
+"human_animations/women_hair1.png":
+{
+	"frame": {"x":1565,"y":995,"w":269,"h":248},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1165,"y":589,"w":269,"h":248},
+	"sourceSize": {"w":2048,"h":2048}
+},
+"human_animations/women_hair2.png":
+{
+	"frame": {"x":1315,"y":995,"w":278,"h":248},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1157,"y":585,"w":278,"h":248},
+	"sourceSize": {"w":2048,"h":2048}
+},
+"human_animations/women_skirt1.png":
+{
+	"frame": {"x":820,"y":995,"w":493,"h":346},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":887,"y":977,"w":493,"h":346},
+	"sourceSize": {"w":2048,"h":2048}
+},
+"offices/room_house.png":
+{
+	"frame": {"x":1,"y":1,"w":2027,"h":992},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":2027,"h":992},
+	"sourceSize": {"w":2027,"h":992}
+}},
+"animations": {
+	"human_animations/man_hair": ["human_animations/man_hair1.png","human_animations/man_hair2.png"],
+	"human_animations/women_hair": ["human_animations/women_hair1.png","human_animations/women_hair2.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "assets-0.png",
+	"format": "RGBA8888",
+	"size": {"w":2029,"h":1668},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d89ebd0744e25a5f5f8abe2391da46d1:f82e3e572c46f9051cae3f2f067e1786:722d3620727828add0caf98b10d04d15$"
+}
+}
