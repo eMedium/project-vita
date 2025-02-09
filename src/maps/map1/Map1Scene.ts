@@ -3,6 +3,8 @@ import { Player } from '../../entities/Player';
 import { EnemyType } from '../../types/EnemyTypes';
 import { Zombie, zombieConfig } from './enemies/Zombie';
 import { Bat, batConfig } from './enemies/Bat';
+import { EnemyManager } from '@/managers/EnemyManager';
+import { GameManager } from '@/managers/GameManager';
 //import { MemoryDisplay } from '../../utils/MemoryDisplay';
 
 export class Map1Scene extends Phaser.Scene {

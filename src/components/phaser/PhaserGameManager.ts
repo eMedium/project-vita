@@ -8,6 +8,7 @@ import { CharacterSelectScene } from '@/scenes/CharacterSelectScene';
 import { MapSelectScene } from '@/scenes/MapSelectScene';
 import { MenuScene } from '@/scenes/MenuScene';
 import { PreloadAssets } from '@/scenes/PreloadScene';
+import { GameManager } from '@/managers/GameManager';
 
 export class PhaserGameManager {
     private static instance: PhaserGameManager | null = null;
@@ -88,6 +89,7 @@ export class PhaserGameManager {
 
             this.game = new Phaser.Game(config);
             PhaserGameManager.initialized = true;
+            GameManager.initialize(this.game);
             return this.game;
         } catch (error) {
             // Reset the flags in case of an error
